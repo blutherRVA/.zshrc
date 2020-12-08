@@ -11,9 +11,8 @@ really what the best practice for a path structure should be.
 2) I downloaded MacTeX to be able export .ipybn files as PDF files from Jupyter Lab. I keep getting an error when I try ot export it which directs me to a page saying I need 
   to download MacTeX so clearly it needs to be put in that Anconda path but, as said in section 1, not sure how to do that.
   
-3) To switch gears and export the .ipybn file to PDF I tried making a Jupyter Notebook in VS Code. Was able to successfully export the file to PDF, however, the Pyhton 'Pandas'
-   package I need to import to do any Python data analysis throws an error when run. Works completely fine in the Anconda Navigator - Jupyter Lab environment, and I am even running
-   VS Code with Anaconda.
+3) To switch gears and export the .ipybn file to PDF I tried making a Jupyter Notebook in VS Code. Was able to successfully export the file to PDF, however, the Python 'Pandas'
+   package I need to import to do any Python data analysis throws an error when run, saying it does no exist. Works completely fine in the Anconda Navigator - Jupyter Lab environment, and I am even running VS Code with Anaconda.Have also tried to reinstall Pandas with pip and conda in VS Code to no avail. 
    
 I belive all of these are related to paths but have been spinning my wheels of what to do get these to work, and what the correct way of having hte structured so I don't keep 
 running into these problems. Additionally, i know my computer is in fact using my .zshrc file and not my .bshrc file because whenver I open a terminal in any of the above 
